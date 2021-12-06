@@ -15,6 +15,11 @@ $money->addMoney($player, $amount);
 $money->removeMoney($player, $amount);
 ```
 
+# Getting Player's Money
+```php
+$money->getMoney($player, $amount);
+```
+
 # Commands
 Add/Remove Command
 
@@ -33,6 +38,13 @@ Top Command
 `
 /topmoney
 `
+
+My Money Command
+
+`
+/mymoney
+`
+
 # Permissions
 Add Money Permission
 
