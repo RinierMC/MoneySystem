@@ -4,8 +4,8 @@ Adds Economy on your server
 First Put:
 ```php
 $money =Server::getInstance()->getPluginManager()->getPlugin("MoneySystem");```
-To add money to a player use```
 
+To add money to a player use
 ```php
 $money->addMoney($player, $amount);```
 
