@@ -17,5 +17,5 @@ $money->removeMoney($player, $amount);
 ```
 
 # Commands
-/money|add|remove|player|amount
+/money|<add|remove>|player|amount
 |:--:|:--:|:--:|:--:|:--:|
