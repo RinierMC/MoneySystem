@@ -17,5 +17,8 @@ $money->removeMoney($player, $amount);
 ```
 
 # Commands
-/money|<add|remove>|player|amount
-|:--:|:--:|:--:|:--:|:--:|
+Add/remove money to a player using ingame command
+/money|<add~remove>|<player>|amount
+|:--:|:--:|:--:|:--:|
+/pay|<player>|<amount>
+|:--:|:--:|:--:|
