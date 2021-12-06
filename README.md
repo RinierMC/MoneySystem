@@ -1,35 +1,49 @@
 # MoneySystem
 Adds Economy on your server
-# Api
-First Put:
+# Add This On Your Code:
 ```php
 $money =Server::getInstance()->getPluginManager()->getPlugin("MoneySystem");
 ```
 
-To add money to a player use
+# Adding money to a player
 ```php
 $money->addMoney($player, $amount);
 ```
 
-To remove money to a player use
+# Removing money to a player
 ```php
 $money->removeMoney($player, $amount);
 ```
 
 # Commands
 Add/Remove Command
+
 `
 /money <add|remove> <player> <amount>
 `
 
 Pay Command
+
 `
 /pay <player> <amount>
 `
 
 Top Command
+
 `
 /topmoney
+`
+# Permissions
+Add Money Permission
+
+`
+money.add.command
+`
+
+Remove Momey Permission
+
+`
+money.remove.command
 `
 
 
