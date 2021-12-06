@@ -7,6 +7,6 @@ $money =Server::getInstance()->getPluginManager()->getPlugin("MoneySystem");```
 To add money to a player use```
 ```php
 $money->addMoney($player, $amount);```
-To remove money to a player use```
+To remove money to a player use
 ```php
 $money->removeMoney($player, $amount);```
