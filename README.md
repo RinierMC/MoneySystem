@@ -1,5 +1,5 @@
 # MoneySystem
-Adds Economy on your server
+Adds Money Economy on your server
 # Add This On Your Code:
 ```php
 $money =Server::getInstance()->getPluginManager()->getPlugin("MoneySystem");
